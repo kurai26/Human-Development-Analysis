@@ -1,0 +1,42 @@
+h1{
+  padding: 16px 0 8px 0;
+  font-size: 3.375em;
+  font-weight: bold;
+}
+h2{
+  padding: 16px 0 8px 0;
+  font-size: 2.25em;
+  font-weight: bold;
+}
+h3{
+  padding: 16px 0 8px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+p, li{
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 16px 0 8px 0;
+}
+.caption{
+  font-weight: bold;
+}
+div.main-container {
+    max-width: 80% !important;
+}
+div.tocify{
+  width: 18% !important;
+  max-width: 504px !important;
+}
+.tocify-item{
+  font-size: 1.1em;
+}
+.tocify ul, .tocify li{
+  line-height: 24px;
+}
+.tocify-subheader .tocify-item{
+  font-size: 11px !important;
+}
+.list-group-item.active{
+  background-color: #104F75 !important;
+}

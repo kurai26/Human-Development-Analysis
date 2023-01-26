@@ -1,0 +1,32 @@
+---
+output: 
+  html_document:
+    css: "icr_styles.css"
+    toc: true
+    toc_depth: 2
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+#knitr::opts_chunk$set(echo = TRUE)
+#Load Libraries
+
+library(dplyr)
+library(highcharter)
+library(plotly)
+library(visNetwork)
+library(tidyr)
+library(radarchart)
+library(reshape2)
+library(countrycode)
+library(viridis)
+library(DT)
+```
+
+# The Human Development Report
+
+## Introduction to the Human Development Report
+
+1.  This report analyses the different human development indicators, with the main focus on sub-Saharan Africa and Zimbabwe in particular.
+2.  The Human Development Report lays down the important goals achieved by countries which are part of United Nations and come under United Nations Development Program.
+3.  All the plots in this kernel are interactive, so please go ahead and interact with the plots to find something in detail
